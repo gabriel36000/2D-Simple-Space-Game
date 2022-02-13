@@ -6,13 +6,19 @@ public class CameraFollow : MonoBehaviour
 {
     public Transform myTarget;
 
+    void Start() {
+
+        myTarget = GameObject.FindWithTag("Player").transform;
+    }
     // Update is called once per frame
     void Update()
     {
-        if(myTarget != null) {
+        myTarget = GameObject.FindWithTag("Player").transform;
+        if (myTarget != null) {
             Vector3 targetPos = myTarget.position;
             targetPos.z = transform.position.z;
             transform.position = targetPos;
         }
     }
+    
 }

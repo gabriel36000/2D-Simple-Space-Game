@@ -1,33 +1,33 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/Gabriel/Documents/GitHub/2D Sample shooter Space Game/Packages/manifest.json
+    m_FilePath: C:/Users/admin/Desktop/Coding/Programming stuff/2D-Simple-Space-Game/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637801117429052341
-    m_Hash: 1643421033
+      ticks: 637803349796524020
+    m_Hash: 2976694157
   m_LockFileStatus:
-    m_FilePath: C:/Users/Gabriel/Documents/GitHub/2D Sample shooter Space Game/Packages/packages-lock.json
+    m_FilePath: C:/Users/admin/Desktop/Coding/Programming stuff/2D-Simple-Space-Game/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637801117758148469
-    m_Hash: 1854731960
+      ticks: 637803350698799317
+    m_Hash: 2656362671
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/Gabriel/Documents/GitHub/2D Sample shooter Space Game/Packages
-m_EditorVersion: 2021.1.22f1 (a137e5fb0427)
+m_ProjectPath: C:/Users/admin/Desktop/Coding/Programming stuff/2D-Simple-Space-Game/Packages
+m_EditorVersion: 2021.2.8f1 (d0e5f0a7b06a)
 m_ResolvedPackages:
-- packageId: com.unity.2d.animation@6.0.5
+- packageId: com.unity.2d.animation@7.0.3
   testable: 0
   isDirectDependency: 1
-  version: 6.0.5
+  version: 7.0.3
   source: 1
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.2d.animation@6.0.5
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.2d.animation@7.0.3
   assetPath: Packages/com.unity.2d.animation
   name: com.unity.2d.animation
   displayName: 2D Animation
@@ -83,6 +83,8 @@ m_ResolvedPackages:
     - 3.2.11
     - 3.2.13
     - 3.2.14
+    - 3.2.15
+    - 3.2.16
     - 4.0.0
     - 4.0.1
     - 4.1.0
@@ -104,6 +106,8 @@ m_ResolvedPackages:
     - 5.0.7
     - 5.0.8
     - 5.0.9
+    - 5.0.10
+    - 5.1.0
     - 6.0.0-pre.1
     - 6.0.0-pre.2
     - 6.0.1
@@ -116,16 +120,15 @@ m_ResolvedPackages:
     - 7.0.0
     - 7.0.1
     - 7.0.2
+    - 7.0.3
     - 8.0.0-pre.3
+    - 8.0.0-pre.4
     compatible:
-    - 6.0.5
-    - 6.0.7
-    verified: 6.0.7
+    - 7.0.3
+    verified: 7.0.3
   dependencies:
   - name: com.unity.2d.common
-    version: 5.0.0
-  - name: com.unity.mathematics
-    version: 1.1.0
+    version: 6.0.2
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.modules.animation
@@ -134,9 +137,11 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 5.0.0
+    version: 6.0.2
   - name: com.unity.2d.sprite
     version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.2.5
   - name: com.unity.modules.uielements
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -147,8 +152,8 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.uielementsnative
     version: 1.0.0
-  - name: com.unity.mathematics
-    version: 1.2.1
+  - name: com.unity.burst
+    version: 1.6.0
   - name: com.unity.modules.animation
     version: 1.0.0
   keywords:
@@ -161,28 +166,25 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637637507290000000
+  datePublishedTicks: 637751609960000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 404f29a83b5666c45c2386a031f1f653fc6fd00d
+    revision: 890da0579456dc5daa73a5645949c0615fac3d16
     path: 
   unityLifecycle:
-    version: 6.0.5
+    version: 7.0.3
     nextVersion: 
 - packageId: com.unity.2d.pixel-perfect@5.0.1
   testable: 0
   isDirectDependency: 1
   version: 5.0.1
   source: 1
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.2d.pixel-perfect@5.0.1
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.2d.pixel-perfect@5.0.1
   assetPath: Packages/com.unity.2d.pixel-perfect
   name: com.unity.2d.pixel-perfect
   displayName: 2D Pixel Perfect
@@ -238,10 +240,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637637493430000000
   documentationUrl: 
@@ -254,12 +253,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 5.0.1
     nextVersion: 
-- packageId: com.unity.2d.psdimporter@5.0.4
+- packageId: com.unity.2d.psdimporter@6.0.2
   testable: 0
   isDirectDependency: 1
-  version: 5.0.4
+  version: 6.0.2
   source: 1
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.2d.psdimporter@5.0.4
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.2d.psdimporter@6.0.2
   assetPath: Packages/com.unity.2d.psdimporter
   name: com.unity.2d.psdimporter
   displayName: 2D PSD Importer
@@ -311,6 +310,8 @@ m_ResolvedPackages:
     - 4.1.0
     - 4.1.1
     - 4.1.2
+    - 4.1.3
+    - 4.2.0
     - 5.0.0-pre.1
     - 5.0.0-pre.2
     - 5.0.1
@@ -322,23 +323,28 @@ m_ResolvedPackages:
     - 6.0.0-pre.4
     - 6.0.0
     - 6.0.1
+    - 6.0.2
     - 7.0.0-pre.3
+    - 7.0.0-pre.4
     compatible:
-    - 5.0.4
-    - 5.0.6
-    verified: 5.0.6
+    - 6.0.2
+    verified: 6.0.2
   dependencies:
-  - name: com.unity.2d.common
-    version: 5.0.0
   - name: com.unity.2d.animation
-    version: 6.0.4
+    version: 7.0.3
+  - name: com.unity.2d.common
+    version: 6.0.2
   - name: com.unity.2d.sprite
     version: 1.0.0
   resolvedDependencies:
+  - name: com.unity.2d.animation
+    version: 7.0.3
   - name: com.unity.2d.common
-    version: 5.0.0
+    version: 6.0.2
   - name: com.unity.2d.sprite
     version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.2.5
   - name: com.unity.modules.uielements
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -349,10 +355,8 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.uielementsnative
     version: 1.0.0
-  - name: com.unity.2d.animation
-    version: 6.0.5
-  - name: com.unity.mathematics
-    version: 1.2.1
+  - name: com.unity.burst
+    version: 1.6.0
   - name: com.unity.modules.animation
     version: 1.0.0
   keywords:
@@ -366,28 +370,25 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637595600020000000
+  datePublishedTicks: 637751610040000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: c6acc0f0e19f89c41e384fa1a602555072cbb8cc
+    revision: 890da0579456dc5daa73a5645949c0615fac3d16
     path: 
   unityLifecycle:
-    version: 5.0.4
+    version: 6.0.2
     nextVersion: 
 - packageId: com.unity.2d.sprite@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.2d.sprite@1.0.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.2d.sprite@1.0.0
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -420,10 +421,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -436,12 +434,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-- packageId: com.unity.2d.spriteshape@6.0.1
+- packageId: com.unity.2d.spriteshape@7.0.3
   testable: 0
   isDirectDependency: 1
-  version: 6.0.1
+  version: 7.0.3
   source: 1
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.2d.spriteshape@6.0.1
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.2d.spriteshape@7.0.3
   assetPath: Packages/com.unity.2d.spriteshape
   name: com.unity.2d.spriteshape
   displayName: 2D SpriteShape
@@ -488,7 +486,6 @@ m_ResolvedPackages:
     - 3.0.14
     - 3.0.15
     - 3.0.16
-    - 3.0.17
     - 4.0.0
     - 4.0.1
     - 4.0.2
@@ -506,37 +503,30 @@ m_ResolvedPackages:
     - 5.1.1
     - 5.1.2
     - 5.1.3
-    - 5.1.4
-    - 5.1.5
     - 6.0.0-pre.1
     - 6.0.0-pre.2
     - 6.0.0
     - 6.0.1
-    - 6.0.2
     - 7.0.0-pre.2
     - 7.0.0-pre.3
-    - 7.0.0
-    - 7.0.2
     - 7.0.3
-    - 8.0.0-pre.4
     compatible:
-    - 6.0.1
-    - 6.0.2
-    verified: 6.0.2
+    - 7.0.3
+    verified: 7.0.3
   dependencies:
   - name: com.unity.mathematics
     version: 1.1.0
   - name: com.unity.2d.common
-    version: 5.0.0
+    version: 6.0.1
   - name: com.unity.2d.path
-    version: 5.0.0
+    version: 5.0.1
   - name: com.unity.modules.physics2d
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.mathematics
-    version: 1.2.1
+    version: 1.2.5
   - name: com.unity.2d.common
-    version: 5.0.0
+    version: 6.0.2
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.modules.uielements
@@ -549,8 +539,10 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.uielementsnative
     version: 1.0.0
+  - name: com.unity.burst
+    version: 1.6.0
   - name: com.unity.2d.path
-    version: 5.0.0
+    version: 5.0.1
   - name: com.unity.modules.physics2d
     version: 1.0.0
   keywords:
@@ -567,28 +559,25 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637595600290000000
+  datePublishedTicks: 0
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: c6acc0f0e19f89c41e384fa1a602555072cbb8cc
+    revision: a502f68fa28fa71b436e2ef510df482f10ab5bb6
     path: 
   unityLifecycle:
-    version: 6.0.1
+    version: 7.0.3
     nextVersion: 
 - packageId: com.unity.2d.tilemap@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.2d.tilemap@1.0.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.2d.tilemap@1.0.0
   assetPath: Packages/com.unity.2d.tilemap
   name: com.unity.2d.tilemap
   displayName: 2D Tilemap Editor
@@ -620,10 +609,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -636,12 +622,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-- packageId: com.unity.2d.tilemap.extras@2.2.0
+- packageId: com.unity.2d.tilemap.extras@2.2.1
   testable: 0
   isDirectDependency: 1
-  version: 2.2.0
+  version: 2.2.1
   source: 1
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.2d.tilemap.extras@2.2.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.2d.tilemap.extras@2.2.1
   assetPath: Packages/com.unity.2d.tilemap.extras
   name: com.unity.2d.tilemap.extras
   displayName: 2D Tilemap Extras
@@ -678,15 +664,11 @@ m_ResolvedPackages:
     - 1.6.4-preview
     - 1.7.0-preview
     - 1.8.0-preview
-    - 1.8.1-preview
     - 2.0.0-pre.1
     - 2.0.0-pre.2
     - 2.0.0
-    - 2.2.0
     - 2.2.1
-    - 3.0.0
     compatible:
-    - 2.2.0
     - 2.2.1
     verified: 2.2.1
   dependencies:
@@ -722,28 +704,25 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637632301510000000
+  datePublishedTicks: 0
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: git+https://github.com/Unity-Technologies/2d-extras.git
-    revision: 9e95426d54e44a24dacc109491c976906c207fd9
+    url: https://github.com/Unity-Technologies/2d-extras.git
+    revision: ab6199c75d7737ad61837747f178a999273bcf88
     path: 
   unityLifecycle:
-    version: 2.2.0
+    version: 2.2.1
     nextVersion: 
 - packageId: com.unity.ads@3.7.5
   testable: 0
   isDirectDependency: 1
   version: 3.7.5
   source: 1
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.ads@3.7.5
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.ads@3.7.5
   assetPath: Packages/com.unity.ads
   name: com.unity.ads
   displayName: Advertisement
@@ -800,8 +779,10 @@ m_ResolvedPackages:
     - 3.7.1
     - 3.7.3
     - 3.7.5
+    - 4.0.0
     compatible:
     - 3.7.5
+    - 4.0.0
     verified: 3.7.5
   dependencies:
   - name: com.unity.ugui
@@ -823,10 +804,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637635162230000000
   documentationUrl: 
@@ -839,12 +817,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 3.7.5
     nextVersion: 
-- packageId: com.unity.analytics@3.6.11
+- packageId: com.unity.analytics@3.6.12
   testable: 0
   isDirectDependency: 1
-  version: 3.6.11
+  version: 3.6.12
   source: 1
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.analytics@3.6.11
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.analytics@3.6.12
   assetPath: Packages/com.unity.analytics
   name: com.unity.analytics
   displayName: Analytics Library
@@ -896,9 +874,12 @@ m_ResolvedPackages:
     - 3.5.3
     - 3.6.11
     - 3.6.12
+    - 3.7.1
+    - 3.8.1
     compatible:
-    - 3.6.11
     - 3.6.12
+    - 3.7.1
+    - 3.8.1
     verified: 3.6.12
   dependencies:
   - name: com.unity.ugui
@@ -920,28 +901,25 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637629809450000000
+  datePublishedTicks: 637692274360000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.analytics.git
-    revision: e79ad7c394f265365ea4389b6142b2ee72299037
+    revision: 16fe75b69f168b066926595ade9b0473c3b32c5f
     path: 
   unityLifecycle:
-    version: 3.6.11
+    version: 3.6.12
     nextVersion: 
-- packageId: com.unity.collab-proxy@1.9.0
+- packageId: com.unity.collab-proxy@1.15.7
   testable: 0
   isDirectDependency: 1
-  version: 1.9.0
+  version: 1.15.7
   source: 1
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.collab-proxy@1.9.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.collab-proxy@1.15.7
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -987,7 +965,15 @@ m_ResolvedPackages:
     - 1.12.5
     - 1.13.5
     - 1.14.1
+    - 1.14.4
+    - 1.14.7
+    - 1.14.9
+    - 1.14.12
     - 1.15.1
+    - 1.15.4
+    - 1.15.7
+    - 1.15.9
+    - 1.15.12
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -999,13 +985,9 @@ m_ResolvedPackages:
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
-    - 1.9.0
-    - 1.10.2
-    - 1.11.2
-    - 1.12.5
-    - 1.13.5
-    - 1.14.1
-    - 1.15.1
+    - 1.15.7
+    - 1.15.9
+    - 1.15.12
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -1016,9 +998,19 @@ m_ResolvedPackages:
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
-    verified: 1.9.0
-  dependencies: []
-  resolvedDependencies: []
+    verified: 1.15.12
+  dependencies:
+  - name: com.unity.nuget.newtonsoft-json
+    version: 2.0.0
+  - name: com.unity.services.core
+    version: 1.0.1
+  resolvedDependencies:
+  - name: com.unity.nuget.newtonsoft-json
+    version: 2.0.0
+  - name: com.unity.services.core
+    version: 1.0.1
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
   keywords:
   - backup
   - cloud
@@ -1040,28 +1032,25 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637637594290000000
+  datePublishedTicks: 637744672890000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: 51447944a1e7d94937e6b7f9e887d58f5097ed13
+    revision: d208594e5483cdf10d303b6ee17df4d6bf58d3de
     path: 
   unityLifecycle:
-    version: 1.9.0
+    version: 1.15.7
     nextVersion: 
-- packageId: com.unity.ide.rider@3.0.7
+- packageId: com.unity.ide.rider@3.0.9
   testable: 0
   isDirectDependency: 1
-  version: 3.0.7
+  version: 3.0.9
   source: 1
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.ide.rider@3.0.7
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.ide.rider@3.0.9
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -1103,9 +1092,14 @@ m_ResolvedPackages:
     - 3.0.5
     - 3.0.6
     - 3.0.7
+    - 3.0.9
+    - 3.0.10
+    - 3.0.12
     compatible:
-    - 3.0.7
-    verified: 3.0.7
+    - 3.0.9
+    - 3.0.10
+    - 3.0.12
+    verified: 3.0.12
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -1120,28 +1114,25 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637572251600000000
+  datePublishedTicks: 637762012950000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: 3007c42a679bbe2c082c276e8d79279110964553
+    revision: bbc029723f4d157f759dba0f2d438dfcec2e73eb
     path: 
   unityLifecycle:
-    version: 3.0.7
+    version: 3.0.9
     nextVersion: 
-- packageId: com.unity.ide.visualstudio@2.0.11
+- packageId: com.unity.ide.visualstudio@2.0.12
   testable: 0
   isDirectDependency: 1
-  version: 2.0.11
+  version: 2.0.12
   source: 1
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.11
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.ide.visualstudio@2.0.12
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -1174,10 +1165,11 @@ m_ResolvedPackages:
     - 2.0.9
     - 2.0.11
     - 2.0.12
+    - 2.0.14
     compatible:
-    - 2.0.11
     - 2.0.12
-    verified: 2.0.12
+    - 2.0.14
+    verified: 2.0.14
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.9
@@ -1198,28 +1190,25 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637613656180000000
+  datePublishedTicks: 637720564750000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: 680e06d94ffca728223ae2cb14bb919cd354e2c1
+    revision: 8d436ff053b9c59677b5e9799208143553cd02d9
     path: 
   unityLifecycle:
-    version: 2.0.11
+    version: 2.0.12
     nextVersion: 
 - packageId: com.unity.ide.vscode@1.2.4
   testable: 0
   isDirectDependency: 1
   version: 1.2.4
   source: 1
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.ide.vscode@1.2.4
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.ide.vscode@1.2.4
   assetPath: Packages/com.unity.ide.vscode
   name: com.unity.ide.vscode
   displayName: Visual Studio Code Editor
@@ -1248,9 +1237,11 @@ m_ResolvedPackages:
     - 1.2.2
     - 1.2.3
     - 1.2.4
+    - 1.2.5
     compatible:
     - 1.2.4
-    verified: 1.2.4
+    - 1.2.5
+    verified: 1.2.5
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1261,10 +1252,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637660806170000000
   documentationUrl: 
@@ -1277,12 +1265,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.4
     nextVersion: 
-- packageId: com.unity.purchasing@3.2.3
+- packageId: com.unity.purchasing@4.1.2
   testable: 0
   isDirectDependency: 1
-  version: 3.2.3
+  version: 4.1.2
   source: 1
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.purchasing@3.2.3
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.purchasing@4.1.2
   assetPath: Packages/com.unity.purchasing
   name: com.unity.purchasing
   displayName: In App Purchasing
@@ -1305,13 +1293,11 @@ m_ResolvedPackages:
     you can fully understand and optimize your in-game economy\n \u25AA Automatic
     coupling with Unity Analytics to enable monitoring and decision-making based
     on trends in your revenue and purchase data across multiple platforms\n \u25AA
-    Support for iOS, Mac, tvOS, Google Play, Windows, Amazon, and Samsung Galaxy
-    app stores(*). (*) NOTE Samsung Galaxy is obsolete and will be removed in v4.
-    Please use Unity Distribution Platform for Samsung Galaxy Apps support.\n \u25AA
-    Support to work with the Unity Distribution Portal to synchronize catalogs and
-    transactions with other app stores\n \u25AA Client-side receipt validation for
-    Apple App Store and Google Play\n\nAfter installing this package, open the Services
-    Window to enable In-App Purchasing to use these features."
+    Support for iOS, Mac, tvOS, Google Play, Windows, and Amazon app stores(*).\n
+    \u25AA Support to work with the Unity Distribution Portal to synchronize catalogs
+    and transactions with other app stores\n \u25AA Client-side receipt validation
+    for Apple App Store and Google Play\n\nAfter installing this package, open the
+    Services Window to enable In-App Purchasing to use these features."
   status: 4
   errors: []
   versions:
@@ -1357,13 +1343,12 @@ m_ResolvedPackages:
     - 4.0.3
     - 4.1.0
     - 4.1.1
+    - 4.1.2
+    - 4.1.3
     compatible:
-    - 3.2.3
-    - 4.0.0
-    - 4.0.3
-    - 4.1.0
-    - 4.1.1
-    verified: 3.2.3
+    - 4.1.2
+    - 4.1.3
+    verified: 4.1.3
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -1375,6 +1360,8 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.androidjni
     version: 1.0.0
+  - name: com.unity.services.core
+    version: 1.0.1
   resolvedDependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -1390,6 +1377,8 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.androidjni
     version: 1.0.0
+  - name: com.unity.services.core
+    version: 1.0.1
   keywords:
   - purchasing
   - iap
@@ -1401,28 +1390,25 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 0
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637618660880000000
+  datePublishedTicks: 637738064760000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.purchasing.git
-    revision: 118d0cf33fe3071fea1b29143e914f3ee0b1c8e0
+    revision: c73a3b5ce4e0a8eb429214ad6702ceb8ece5fabe
     path: 
   unityLifecycle:
-    version: 3.2.3
+    version: 4.1.2
     nextVersion: 
 - packageId: com.unity.test-framework@1.1.29
   testable: 0
   isDirectDependency: 1
   version: 1.1.29
   source: 1
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.test-framework@1.1.29
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.test-framework@1.1.29
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -1469,9 +1455,13 @@ m_ResolvedPackages:
     - 1.1.27
     - 1.1.29
     - 1.1.30
+    - 2.0.1-pre.12
+    - 2.0.1-pre.18
     compatible:
     - 1.1.29
     - 1.1.30
+    - 2.0.1-pre.12
+    - 2.0.1-pre.18
     verified: 1.1.30
   dependencies:
   - name: com.unity.ext.nunit
@@ -1497,10 +1487,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637647922650000000
   documentationUrl: 
@@ -1518,7 +1505,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.6
   source: 1
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.textmeshpro@3.0.6
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.textmeshpro@3.0.6
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -1662,10 +1649,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637547111200000000
   documentationUrl: 
@@ -1678,12 +1662,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 3.0.6
     nextVersion: 
-- packageId: com.unity.timeline@1.5.6
+- packageId: com.unity.timeline@1.6.3
   testable: 0
   isDirectDependency: 1
-  version: 1.5.6
+  version: 1.6.3
   source: 1
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.timeline@1.5.6
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.timeline@1.6.3
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1766,19 +1750,15 @@ m_ResolvedPackages:
     - 1.6.1
     - 1.6.2
     - 1.6.3
+    - 1.6.4
     - 1.7.0-pre.1
+    - 1.7.0-pre.2
     compatible:
-    - 1.5.6
-    - 1.5.7
-    - 1.6.0-pre.1
-    - 1.6.0-pre.3
-    - 1.6.0-pre.4
-    - 1.6.0-pre.5
-    - 1.6.1
-    - 1.6.2
     - 1.6.3
+    - 1.6.4
     - 1.7.0-pre.1
-    verified: 1.5.7
+    - 1.7.0-pre.2
+    verified: 1.6.4
   dependencies:
   - name: com.unity.modules.director
     version: 1.0.0
@@ -1810,28 +1790,25 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637613662510000000
+  datePublishedTicks: 637703491050000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: bba45362fa74fde39bfa14d05688da527254b39f
+    revision: 527d3ba73eae5d77407d8300c31dd62770a7409f
     path: 
   unityLifecycle:
-    version: 1.5.6
+    version: 1.6.3
     nextVersion: 
 - packageId: com.unity.ugui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.ugui@1.0.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.ugui@1.0.0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1875,10 +1852,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1891,12 +1865,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-- packageId: com.unity.visualscripting@1.6.1
+- packageId: com.unity.visualscripting@1.7.6
   testable: 0
   isDirectDependency: 1
-  version: 1.6.1
+  version: 1.7.6
   source: 1
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.visualscripting@1.6.1
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.visualscripting@1.7.6
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1905,14 +1879,19 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
-  description: "Visual Scripting, previously known as BOLT, is an alternative workflow
-    to design behaviours. Instead of the classic method of writing a C# script, visual
-    scripting offers a way to design behaviours intuitively without code, by connecting
-    events, actions, and data together in a graph. \n\nBoth programmers and non-programmers
-    can use node-based graphs to design final logic or to quickly create prototypes.
-    This package also features an API that programmers can use for more advanced
-    tasks, or to create custom nodes that can be used by other team members."
+  type: tool
+  description: 'Visual scripting is a workflow that uses visual, node-based graphs
+    to design behaviors rather than write lines of C# script.
+
+
+    Enabling artists,
+    designers and programmers alike, visual scripting can be used to design final
+    logic, quickly create prototypes, iterate on gameplay and create custom nodes
+    to help streamline collaboration.
+
+
+    Visual scripting is compatible with third-party
+    APIs, including most packages, assets and custom libraries.'
   status: 4
   errors: []
   versions:
@@ -1927,32 +1906,14 @@ m_ResolvedPackages:
     - 1.6.1
     - 1.7.1
     - 1.7.2
-    - 1.7.3
-    - 1.7.5
     - 1.7.6
-    - 1.8.0-pre.1
     compatible:
-    - 1.6.1
-    - 1.7.1
-    - 1.7.2
-    - 1.7.3
-    - 1.7.5
     - 1.7.6
-    verified: 1.6.1
+    verified: 1.7.6
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
-  - name: com.unity.modules.ai
-    version: 1.0.0
-  - name: com.unity.modules.animation
-    version: 1.0.0
   - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.particlesystem
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.physics2d
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.ugui
@@ -1961,17 +1922,7 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.modules.ai
-    version: 1.0.0
-  - name: com.unity.modules.animation
-    version: 1.0.0
   - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.particlesystem
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.physics2d
     version: 1.0.0
   keywords: []
   registry:
@@ -1981,28 +1932,25 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637547228050000000
+  datePublishedTicks: 0
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.visualscripting.git
-    revision: d2dc8205ed231b4fc18289dddb14c0a92c76154f
+    revision: 64599611822e37717efdd2fa1a0576e1984155fc
     path: 
   unityLifecycle:
-    version: 1.6.1
+    version: 1.7.6
     nextVersion: 
 - packageId: com.unity.xr.legacyinputhelpers@2.1.8
   testable: 0
   isDirectDependency: 1
   version: 2.1.8
   source: 1
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.8
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.8
   assetPath: Packages/com.unity.xr.legacyinputhelpers
   name: com.unity.xr.legacyinputhelpers
   displayName: XR Legacy Input Helpers
@@ -2077,10 +2025,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637623088970000000
   documentationUrl: 
@@ -2098,7 +2043,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.modules.ai@1.0.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -2128,10 +2073,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2149,7 +2091,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -2178,10 +2120,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2199,7 +2138,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.modules.animation@1.0.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -2229,10 +2168,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2250,7 +2186,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -2280,10 +2216,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2301,7 +2234,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.modules.audio@1.0.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -2331,10 +2264,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2352,7 +2282,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.modules.cloth@1.0.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -2386,10 +2316,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2407,7 +2334,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.modules.director@1.0.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -2445,10 +2372,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2466,7 +2390,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -2497,10 +2421,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2518,7 +2439,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.modules.imgui@1.0.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -2548,10 +2469,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2569,7 +2487,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -2599,10 +2517,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2620,7 +2535,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -2650,10 +2565,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2671,7 +2583,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.modules.physics@1.0.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -2701,10 +2613,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2722,7 +2631,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -2752,10 +2661,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2773,7 +2679,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -2807,10 +2713,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2828,7 +2731,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.modules.terrain@1.0.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -2858,10 +2761,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2879,7 +2779,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -2917,10 +2817,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2938,7 +2835,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -2971,10 +2868,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2992,7 +2886,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.modules.ui@1.0.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -3022,10 +2916,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3043,7 +2934,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.modules.uielements@1.0.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -3089,10 +2980,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3110,7 +2998,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.modules.umbra@1.0.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -3140,10 +3028,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3161,7 +3046,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -3199,10 +3084,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3220,7 +3102,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -3250,10 +3132,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3271,7 +3150,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -3309,10 +3188,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3330,7 +3206,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -3368,10 +3244,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3389,7 +3262,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -3427,10 +3300,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3448,7 +3318,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -3502,10 +3372,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3523,7 +3390,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -3557,10 +3424,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3578,7 +3442,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.modules.video@1.0.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -3620,10 +3484,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3641,7 +3502,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.modules.vr@1.0.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -3685,10 +3546,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3706,7 +3564,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.modules.wind@1.0.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -3736,10 +3594,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3757,7 +3612,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.modules.xr@1.0.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -3799,10 +3654,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3820,7 +3672,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -3854,10 +3706,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3875,7 +3724,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
   assetPath: Packages/com.unity.modules.uielementsnative
   name: com.unity.modules.uielementsnative
   displayName: UIElements Native
@@ -3916,10 +3765,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3937,7 +3783,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.6
   source: 1
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.ext.nunit@1.0.6
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.ext.nunit@1.0.6
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -3959,8 +3805,10 @@ m_ResolvedPackages:
     - 1.0.0
     - 1.0.5
     - 1.0.6
+    - 2.0.2
     compatible:
     - 1.0.6
+    - 2.0.2
     verified: 1.0.6
   dependencies: []
   resolvedDependencies: []
@@ -3975,10 +3823,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637429759280000000
   documentationUrl: 
@@ -3991,12 +3836,133 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.6
     nextVersion: 
-- packageId: com.unity.mathematics@1.2.1
+- packageId: com.unity.services.core@1.0.1
   testable: 0
   isDirectDependency: 0
-  version: 1.2.1
+  version: 1.0.1
   source: 1
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.mathematics@1.2.1
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.services.core@1.0.1
+  assetPath: Packages/com.unity.services.core
+  name: com.unity.services.core
+  displayName: Services Core
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: 'This package defines common components used by multiple Game Service
+    packages.
+
+    These are standardized and aim to unify the overall experience
+    of working with Game Services packages.'
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.1
+    compatible:
+    - 1.0.1
+    verified: 1.0.1
+  dependencies:
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
+    revision: 4cd880d4fd5c60597629249bf4f324e4c8d7aa2e
+    path: 
+  unityLifecycle:
+    version: 1.0.1
+    nextVersion: 1.1.0-pre.8
+- packageId: com.unity.nuget.newtonsoft-json@2.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 2.0.0
+  source: 1
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
+  assetPath: Packages/com.unity.nuget.newtonsoft-json
+  name: com.unity.nuget.newtonsoft-json
+  displayName: Newtonsoft Json
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: 'Newtonsoft Json for use in Unity projects and Unity packages. Currently
+    synced to version 12.0.2.
+
+
+    This package is used for advanced json serialization
+    and deserialization. Most Unity users will be better suited using the existing
+    json tools built into Unity.
+
+    To avoid assembly clashes, please use this
+    package if you intend to use Newtonsoft Json.'
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.0-preview.2
+    - 1.0.0-preview.3
+    - 1.0.0-preview.4
+    - 1.0.1-preview.1
+    - 1.1.2
+    - 2.0.0-preview
+    - 2.0.0-preview.1
+    - 2.0.0-preview.2
+    - 2.0.0
+    - 2.0.1-preview.1
+    compatible:
+    - 2.0.0
+    - 2.0.1-preview.1
+    verified: 2.0.0
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637237898320000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
+    revision: d2fd6ed876261bbd82f59199ad711e7667bf633a
+    path: 
+  unityLifecycle:
+    version: 2.0.0
+    nextVersion: 
+- packageId: com.unity.mathematics@1.2.5
+  testable: 0
+  isDirectDependency: 0
+  version: 1.2.5
+  source: 1
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.mathematics@1.2.5
   assetPath: Packages/com.unity.mathematics
   name: com.unity.mathematics
   displayName: Mathematics
@@ -4012,10 +3978,24 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.0.12-preview.2
+    - 0.0.12-preview.5
+    - 0.0.12-preview.8
+    - 0.0.12-preview.10
+    - 0.0.12-preview.11
+    - 0.0.12-preview.13
+    - 0.0.12-preview.17
+    - 0.0.12-preview.19
+    - 0.0.12-preview.20
+    - 1.0.0-preview.1
+    - 1.0.1
+    - 1.1.0-preview.1
+    - 1.1.0
     - 1.2.1
+    - 1.2.5
     compatible:
-    - 1.2.1
-    verified: 1.2.1
+    - 1.2.5
+    verified: 1.2.5
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -4027,10 +4007,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -4038,17 +4015,17 @@ m_ResolvedPackages:
   repository:
     type: git
     url: https://github.com/Unity-Technologies/Unity.Mathematics.git
-    revision: 71412d94b7a0b0fdbb3195a5e6559bf6a761e91a
+    revision: 53b0c4756c3c0dff3746285a8b83e858c26cdb06
     path: 
   unityLifecycle:
-    version: 1.2.1
+    version: 1.2.5
     nextVersion: 
-- packageId: com.unity.2d.common@5.0.0
+- packageId: com.unity.2d.common@6.0.2
   testable: 0
   isDirectDependency: 0
-  version: 5.0.0
+  version: 6.0.2
   source: 1
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.2d.common@5.0.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.2d.common@6.0.2
   assetPath: Packages/com.unity.2d.common
   name: com.unity.2d.common
   displayName: 2D Common
@@ -4064,18 +4041,45 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.9-preview.1
+    - 1.0.9-preview.2
+    - 1.0.10-preview
+    - 1.0.11-preview.1
+    - 1.1.0-preview.1
+    - 1.1.0-preview.2
+    - 1.2.0-preview.1
+    - 2.0.1
+    - 2.0.2
+    - 2.1.0
+    - 3.0.0
+    - 3.0.1
+    - 4.0.0
+    - 4.0.1
+    - 4.0.2
+    - 4.0.3
+    - 5.0.0-pre.1
+    - 5.0.0-pre.2
     - 5.0.0
+    - 6.0.0-pre.2
+    - 6.0.0-pre.3
+    - 6.0.2
     compatible:
-    - 5.0.0
-    verified: 5.0.0
+    - 6.0.2
+    verified: 6.0.2
   dependencies:
   - name: com.unity.2d.sprite
     version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.1.0
   - name: com.unity.modules.uielements
     version: 1.0.0
+  - name: com.unity.burst
+    version: 1.5.1
   resolvedDependencies:
   - name: com.unity.2d.sprite
     version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.2.5
   - name: com.unity.modules.uielements
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -4086,6 +4090,8 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.uielementsnative
     version: 1.0.0
+  - name: com.unity.burst
+    version: 1.6.0
   keywords:
   - 2d
   registry:
@@ -4095,10 +4101,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -4106,17 +4109,17 @@ m_ResolvedPackages:
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 82ee1598c2f1270bc1081c1f908364e528335bd5
+    revision: 890da0579456dc5daa73a5645949c0615fac3d16
     path: 
   unityLifecycle:
-    version: 5.0.0
+    version: 6.0.2
     nextVersion: 
-- packageId: com.unity.2d.path@5.0.0
+- packageId: com.unity.2d.path@5.0.1
   testable: 0
   isDirectDependency: 0
-  version: 5.0.0
+  version: 5.0.1
   source: 1
-  resolvedPath: C:\Users\Gabriel\Documents\GitHub\2D Sample shooter Space Game\Library\PackageCache\com.unity.2d.path@5.0.0
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.2d.path@5.0.1
   assetPath: Packages/com.unity.2d.path
   name: com.unity.2d.path
   displayName: 2D Path
@@ -4132,10 +4135,18 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 5.0.0
+    - 1.0.0-preview.1
+    - 1.0.0-preview.4
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    - 2.0.4
+    - 3.0.0
+    - 3.0.1
+    - 5.0.1
     compatible:
-    - 5.0.0
-    verified: 5.0.0
+    - 5.0.1
+    verified: 5.0.1
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -4148,10 +4159,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -4159,8 +4167,154 @@ m_ResolvedPackages:
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 82ee1598c2f1270bc1081c1f908364e528335bd5
+    revision: bcbc5fb1cb18a1a4cf6e15325550ed4b8fbb21bc
     path: 
   unityLifecycle:
-    version: 5.0.0
+    version: 5.0.1
+    nextVersion: 
+- packageId: com.unity.burst@1.6.0
+  testable: 0
+  isDirectDependency: 0
+  version: 1.6.0
+  source: 1
+  resolvedPath: C:\Users\admin\Desktop\Coding\Programming stuff\2D-Simple-Space-Game\Library\PackageCache\com.unity.burst@1.6.0
+  assetPath: Packages/com.unity.burst
+  name: com.unity.burst
+  displayName: Burst
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Burst is a compiler that translates from IL/.NET bytecode to highly
+    optimized native code using LLVM.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 0.2.4-preview.5
+    - 0.2.4-preview.7
+    - 0.2.4-preview.11
+    - 0.2.4-preview.12
+    - 0.2.4-preview.13
+    - 0.2.4-preview.14
+    - 0.2.4-preview.15
+    - 0.2.4-preview.16
+    - 0.2.4-preview.17
+    - 0.2.4-preview.18
+    - 0.2.4-preview.19
+    - 0.2.4-preview.20
+    - 0.2.4-preview.21
+    - 0.2.4-preview.22
+    - 0.2.4-preview.23
+    - 0.2.4-preview.24
+    - 0.2.4-preview.25
+    - 0.2.4-preview.30
+    - 0.2.4-preview.31
+    - 0.2.4-preview.33
+    - 0.2.4-preview.34
+    - 0.2.4-preview.37
+    - 0.2.4-preview.41
+    - 0.2.4-preview.45
+    - 0.2.4-preview.48
+    - 0.2.4-preview.50
+    - 1.1.0-preview.2
+    - 1.1.0-preview.3
+    - 1.1.0-preview.4
+    - 1.1.1
+    - 1.1.2
+    - 1.1.3-preview.3
+    - 1.2.0-preview.1
+    - 1.2.0-preview.5
+    - 1.2.0-preview.6
+    - 1.2.0-preview.8
+    - 1.2.0-preview.9
+    - 1.2.0-preview.10
+    - 1.2.0-preview.11
+    - 1.2.0-preview.12
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.3.0-preview.1
+    - 1.3.0-preview.2
+    - 1.3.0-preview.3
+    - 1.3.0-preview.4
+    - 1.3.0-preview.5
+    - 1.3.0-preview.6
+    - 1.3.0-preview.7
+    - 1.3.0-preview.8
+    - 1.3.0-preview.9
+    - 1.3.0-preview.10
+    - 1.3.0-preview.11
+    - 1.3.0-preview.12
+    - 1.3.0-preview.13
+    - 1.3.0
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    - 1.3.4
+    - 1.3.5
+    - 1.3.6
+    - 1.3.7
+    - 1.3.8
+    - 1.3.9
+    - 1.4.0-pre.1
+    - 1.4.0-preview.1
+    - 1.4.0-preview.2
+    - 1.4.0-preview.3
+    - 1.4.0-preview.4
+    - 1.4.0-preview.5
+    - 1.4.1-pre.1
+    - 1.4.1-pre.2
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.4.4-preview.1
+    - 1.4.4-preview.2
+    - 1.4.4
+    - 1.4.5
+    - 1.4.6
+    - 1.4.7
+    - 1.4.8
+    - 1.5.0-pre.3
+    - 1.5.0-pre.4
+    - 1.5.0-pre.5
+    - 1.5.0
+    - 1.5.1
+    - 1.5.2
+    - 1.5.3
+    - 1.5.4
+    - 1.6.0-pre.2
+    - 1.6.0
+    compatible:
+    - 1.6.0
+    verified: 1.6.0
+  dependencies:
+  - name: com.unity.mathematics
+    version: 1.2.1
+  resolvedDependencies:
+  - name: com.unity.mathematics
+    version: 1.2.5
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/burst.git
+    revision: 405e9582b7e75a1a9e6f8dcaf4c2dc97d441ae68
+    path: 
+  unityLifecycle:
+    version: 1.6.0
     nextVersion: 

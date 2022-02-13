@@ -8,10 +8,7 @@ public class SinpleMoving : MonoBehaviour
     public float rotationSpeed;
 
     float shipBoundaryRadius = -5f;
-    // Start is called before the first frame update
-    void Start() {
-        
-    }
+   
 
     // Update is called once per frame
     void FixedUpdate() {
