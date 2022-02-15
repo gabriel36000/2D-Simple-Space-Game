@@ -386,6 +386,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 "Assets/Scripts/CameraFollow.cs"
+"Assets/Scripts/Canvas.cs"
 "Assets/Scripts/DamageByCollision.cs"
 "Assets/Scripts/EnemyFacesPlayer.cs"
 "Assets/Scripts/EnemyShooting.cs"
@@ -394,6 +395,7 @@
 "Assets/Scripts/PlayerSpawner.cs"
 "Assets/Scripts/SelfDestruct.cs"
 "Assets/Scripts/SinpleMoving.cs"
+"Assets/Scripts/WaveSpawner.cs"
 -langversion:9.0
 
 /deterministic

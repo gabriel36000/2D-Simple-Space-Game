@@ -5,11 +5,6 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour
 {
     public Transform myTarget;
-
-    void Start() {
-
-        myTarget = GameObject.FindWithTag("Player").transform;
-    }
     // Update is called once per frame
     void Update()
     {
